@@ -1,6 +1,7 @@
 export default function Footer(){
     return(
     <footer>
+      <hr></hr>
         <a href="">CV</a>
         <br />
         <a href="">LinkedIn</a>

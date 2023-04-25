@@ -25,8 +25,13 @@ header a{
   font-weight:bold;
 }
 
+header :link.logo{
+  font-size:40px;
+}
+
 footer{
   padding-top:100px;
+  text-align: right;
 }
 
 footer a{
@@ -62,5 +67,57 @@ li a{
 }
 
 li a:hover{
+  background-color: #e1131d;
+}
+
+h1{
+  text-align: center;
+}
+
+h1.hero-text{
+  font-size:55px;
+  padding-top:0;
+}
+
+h2{
+  text-align:center;
+}
+
+h2.tagline{
+  font-size:18px;
+}
+
+body{
+  text-align: center;
+}
+
+button.linkedin{
+  width:10%;
   background-color: #ff717b;
+  color:#ffffff;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: inline-block;
+  font-size:12px;
+  border:4px double #cccccc;
+  border-radius: 10px;
+  margin-top:30px;
+}
+
+button.github{
+  width:10%;
+  background-color: #ffffff;
+  color:#ff717b;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: inline-block;
+  font-size:12px;
+  border:4px double #ff717b;
+  border-radius: 10px;
+  margin-top:30px;
+}
+
+h1.projects{
+  text-align: left;
+  margin-top:30px;
 }
