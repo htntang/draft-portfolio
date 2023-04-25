@@ -13,13 +13,15 @@ export default function LandingPage(){
         <button class="github">GitHub</button>
         </body>
         <br />
-        <hr></hr>
+        <hr />
         <Projects />
-        <hr></hr>
+        <hr />
         <Experience />
         <hr></hr>
         <h2>Want to work with me?</h2>
         <h3>Connect with me on LinkedIn!</h3>
+        <button class="linkedin">LinkedIn</button>
+        <hr />
         </>
     )
 }
