@@ -11,17 +11,26 @@ main{
   margin: 0 auto;
 }
 
-img.hello{
-  align-items: right;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-img.intro{
-  align-items: right;
+.column {
+  padding: 0 22px;
+  float:right;
+}
+
+.column img {
+  margin-top: 42px;
+  vertical-align: right;
 }
 
 div.buttons{
-  text-align: center;
-  padding-top: 100px;
+  text-align: right;
+  padding-top: 200px;
+  margin-right: 22px;
 }
 
 header{
@@ -80,7 +89,7 @@ li a{
 }
 
 li a:hover{
-  background-color: #f8e9a1;
+  background-color: #d79922;
 }
 
 h2{

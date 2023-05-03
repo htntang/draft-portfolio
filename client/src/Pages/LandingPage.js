@@ -7,8 +7,16 @@ export default function LandingPage(){
     return(
         <>
         <body>
-        <img class="hello" src="https://i.imgur.com/S1ZRIJp.png" />
-        <img class="intro" src="https://i.imgur.com/onwDQdn.png" />
+        <div class="intro">
+        <div class="column">
+        <div class="row"> 
+        <img src="https://i.imgur.com/S1ZRIJp.png" />
+        </div>  
+        <div class="row">
+        <img src="https://i.imgur.com/onwDQdn.png" />
+        </div>
+        </div>
+        </div>
 
         <br />
         <br />
