@@ -1,14 +1,27 @@
 *{
-  background-color: #acbf00;
+  background-color: #efe2ba;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
-  color:#ffffff;
+  color:#313639;
 }
 
 main{
   padding:10px;
   max-width: 1500px;
   margin: 0 auto;
+}
+
+img.hello{
+  align-items: right;
+}
+
+img.intro{
+  align-items: right;
+}
+
+div.buttons{
+  text-align: center;
+  padding-top: 100px;
 }
 
 header{
@@ -20,7 +33,7 @@ header{
 }
 
 header a{
-  color:#ffffff;
+  color:#313639;
   text-decoration: none;
   font-weight:bold;
 }
@@ -50,7 +63,7 @@ ul.navbar{
   margin:0;
   padding:0;
   overflow:hidden;
-  background-color:#00a6a0;
+  background-color:#4056a1;
 }
 
 li{
@@ -60,61 +73,48 @@ li{
 li a{
   display:block;
   color:#ffffff;
-  background-color:#00a6a0;
+  background-color:#4056a1;
   text-decoration:none;
   font-weight:bold;
   padding: 14px 16px;
 }
 
 li a:hover{
-  background-color: #e1131d;
-}
-
-h1{
-  text-align: center;
-}
-
-h1.hero-text{
-  font-size:55px;
-  padding-top:0;
+  background-color: #f8e9a1;
 }
 
 h2{
   text-align:center;
 }
 
-h2.tagline{
-  font-size:18px;
-}
-
-body{
-  text-align: center;
-}
 
 button.linkedin{
   width:10%;
-  background-color: #ff717b;
+  background-color: #f13c20;
   color:#ffffff;
   padding: 12px 12px;
   text-decoration: none;
   display: inline-block;
   font-size:12px;
-  border:4px double #cccccc;
+  border:4px double #ffffff;
   border-radius: 10px;
   margin-top:30px;
+  font-weight:bold;
+  margin-right:10px;
 }
 
 button.github{
   width:10%;
   background-color: #ffffff;
-  color:#ff717b;
+  color:#f13c20;
   padding: 12px 12px;
   text-decoration: none;
   display: inline-block;
   font-size:12px;
-  border:4px double #ff717b;
+  border:4px double #f13c20;
   border-radius: 10px;
   margin-top:30px;
+  font-weight:bold;
 }
 
 h1.projects{
@@ -132,6 +132,26 @@ h2.etymology{
   text-align:left;
 }
 
+h2.right{
+  text-align: right;
+}
+
+h2.left{
+  text-align:left;
+}
+
+div.left{
+  text-align: left;
+}
+
+div.right{
+  text-align: right;
+}
+
+h3{
+  margin-top: 0;
+}
+
 div.plays{
   text-align:right;
   margin:0 auto;
@@ -144,26 +164,28 @@ h2.plays{
 
 button.etymology{
   width:10%;
-  background-color: #ff717b;
+  background-color: #f13c20;
   color:#ffffff;
   padding: 12px 12px;
   text-decoration: none;
   display: inline-block;
   font-size:12px;
-  border:4px double #cccccc;
+  border:4px double #ffffff;
   border-radius: 10px;
   margin-top:10px;
+  font-weight:bold;
 }
 
 button.plays{
   width:10%;
   background-color: #ffffff;
-  color:#ff717b;
+  color:#f13c20;
   padding: 12px 12px;
   text-decoration: none;
   display: inline-block;
   font-size:12px;
-  border:4px double #ff717b;
+  border:4px double #f13c20;;
   border-radius: 10px;
   margin-top:10px;
+  font-weight:bold;
 }

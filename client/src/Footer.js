@@ -8,6 +8,8 @@ export default function Footer(){
         <a href="">Github</a>
         <br />
         <a href="">TikTok</a>
+        <br />
+        <a href="">Instagram</a>
       </footer>
     )
 }
